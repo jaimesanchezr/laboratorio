@@ -20,4 +20,9 @@ Comando para su uso: git remote add <nombre_del_repo> <URL_repositorio>
 -- PETICION DE CAMBIOS --
 La petición de cambios o Pull Request consiste en solicitarle a un colaborador/compañero que revise y apruebe los cambios que has hecho en el código.
 
+-- MERGE ENTRE RAMAS Y RESOLUCIÓN DE PROBLEMAS --
+El merge entre ramas puede darse de dos tipos: manual o automática.
+*Automática si: Git determina que no hay ningún entre ramas, por lo tanto, el merge se hará de forma automática.
+*Manual si: Git determina que hay conflictos entre las ramas a "mergear", indicandole al usuario que debe resolver el conflicto de forma manual.
+
 
