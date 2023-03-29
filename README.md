@@ -2,7 +2,7 @@ git init: sirve para inicializar el repositorio
 git add <nombre_archivos>: añadir los archivos al staging area
 git commit -m "mensaje": sirve guardar los cambios realizados en los archivos y añadir un mensaje
 git diff <archivo>: sirve para comparar los cambios entre dos archivos (la version actual y su ultima actualización)
-git diff  <hash> <archivo>: sirve para comprar el archivo actual con una verisón en especifico utilizando el tag hash.
+	-hash: sirve para comprar el archivo actual con una verisón en especifico utilizando el tag hash.
 git branch <nombre_rama>: crea una nueva rama.
 git status: verificar los archivos modificados, si están en el staging area.
 git checkout <nombre_rama>: sirve para viajar entre ramas.
