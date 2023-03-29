@@ -20,6 +20,7 @@ git status: verificar los archivos modificados, si están en el staging area.
 -- CHECKOUT --
 git checkout <nombre_rama>: sirve para viajar entre ramas.
 git checkout <id_commit>: viajar a un commit en especifico utilizando su ID.
+git checkout -b: crear un branch desde el punto en donde estoy parado
 
 -- MERGE
 git merge <nombre_rama>: unir dos ramas (la rama actual y la rama que se especifica en el comando).
@@ -44,5 +45,7 @@ El merge entre ramas puede darse de dos tipos: manual o automática.
 
 -- GESTIÓN DE RAMAS --
 Gestion de todas las ramas derivadas de la rama principal (main/master)
+
+
 
 
