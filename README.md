@@ -12,3 +12,7 @@ git revert <id_commit>: viajar a un punto de la misma rama anterior y los archiv
 git reset: viajar a un punto de la misma rama anterior, con dos variantes:
 	--hard: elimina todos los commits posteriores a ese punto de la rama (no recuerda que existen esos commits)
 	--soft: el sistema asume que no existen los commits posteriores a ese punto, sin embargo (sabe que existieron esos commits)
+
+-- REPOSITORIOS REMOTOS --
+Un repositorio remoto es aquel alojado en un servidor remoto.
+Comando para su uso: git remote add <nombre_del_repo> <URL_repositorio>
