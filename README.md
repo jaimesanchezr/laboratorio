@@ -16,3 +16,8 @@ git reset: viajar a un punto de la misma rama anterior, con dos variantes:
 -- REPOSITORIOS REMOTOS --
 Un repositorio remoto es aquel alojado en un servidor remoto.
 Comando para su uso: git remote add <nombre_del_repo> <URL_repositorio>
+
+-- PETICION DE CAMBIOS --
+La petición de cambios o Pull Request consiste en solicitarle a un colaborador/compañero que revise y apruebe los cambios que has hecho en el código.
+
+
