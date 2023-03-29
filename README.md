@@ -42,4 +42,7 @@ El merge entre ramas puede darse de dos tipos: manual o automática.
 *Automática si: Git determina que no hay ningún entre ramas, por lo tanto, el merge se hará de forma automática.
 *Manual si: Git determina que hay conflictos entre las ramas a "mergear", indicandole al usuario que debe resolver el conflicto de forma manual.
 
+-- GESTIÓN DE RAMAS --
+Gestion de todas las ramas derivadas de la rama principal (main/master)
+
 
