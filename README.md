@@ -9,7 +9,7 @@ git commit -m "mensaje": sirve guardar los cambios realizados en los archivos y 
 
 -- DIFF --
 git diff <archivo>: sirve para comparar los cambios entre dos archivos (la version actual y su ultima actualización)
-git diff  <hash> <archivo>: sirve para comprar el archivo actual con una verisón en especifico utilizando el tag hash.
+	-hash: sirve para comprar el archivo actual con una verisón en especifico utilizando el tag hash.
 
 -- RAMAS --
 git branch <nombre_rama>: crea una nueva rama.
@@ -46,6 +46,7 @@ El merge entre ramas puede darse de dos tipos: manual o automática.
 -- GESTIÓN DE RAMAS --
 Gestion de todas las ramas derivadas de la rama principal (main/master)
 
-
+-- FORKS en control de versiones -- 
+Permite clonar el repositorio sin dañar el original; permite a los desarrolladores a contribuir.
 
 
