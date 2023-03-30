@@ -65,3 +65,40 @@ Son identificadores que se le asocian a una versión especifica de un repo. Se u
 - `git push`: envia los cambios en la rama actual del repo. local al repo. remoto.
 NEVER use: git push --force (-f)
 
+# FLUJOS DE TRABAJO DE AVANZADOS
+Como se gestiona el ciclo de vida de la aplicación.
+- Archivo .gitignore: archivo donde se indican que archivos de texto o binario no quiero que estén en mi repositorio; puede contener rutas, dependencias...
+- Archivo .README.md: archivo donde se va a detallar toda la documentación necesaria de la aplicación.
+- Archivo changelog.md: archivo que documenta los tags
+
+# CONVENCIONES PARA COMENTAR COMMIT
+- La oración sea imperativa: debe ser clara y concisa.
+- La longitud del mensaje: directo al grano y de forma funcional.
+- Detalles adicionales: historias de usuario
+- Incluir número de tarea 
+- Usar verbos precesos 
+
+# CONVENCIONES PARA NOMBRAR BRANCHS
+- Nombres cortos y descriptivos: feature/id_historia
+- Nombre en minúsculas y separadados por "/" o "-"
+- Utilizar prefijos para el tipo de branch: 
+- No usar nombres genéricos: dev, feature1, nuevo...
+
+# DOCUMENTACIÓN DE UNA SOLICITUD DE CAMBIO (PULL REQUEST)
+- Título: nombres cortos y descriptivos
+- Descripción: detallada de lo que espera que se resuelva y los motivos del cambio. 
+- Capturas de pantalla: hacer capturas para ilustrar.
+- Problemas relacionados: dar un "enlace" al prolema.
+- Etiquetas: etiquetar la solicitud de cambio.
+
+# CODE REVIEW
+- Verificación y validación del código para reducir errores.
+
+#GIT EN MULTIPLES ENTORNOS DE TRABAJO
+- `git clean`:  eliminar archivos no rastreados en un directorio local. en git, un archivo no rastreado es que no ha sido añadido por primera vez.
+- `git rebase`: integra cambios de una rama a otra de forma mas ordenada (es como un merge).
+
+#GIT stash
+- `git stash`: guarda temporalmente los cambios en un estado intermedio para trabajar en otra cosa sin tener que hacer commit de los cambios actuales.
+- Se puede seguir trabajando desde el estado guardado.
+
