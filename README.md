@@ -102,3 +102,27 @@ Como se gestiona el ciclo de vida de la aplicación.
 - `git stash`: guarda temporalmente los cambios en un estado intermedio para trabajar en otra cosa sin tener que hacer commit de los cambios actuales.
 - Se puede seguir trabajando desde el estado guardado.
 
+# Comandos de emergencia
+- `git reset`:  permite mover la rama y head del repo a un commit anterior.
+- `git reflog`: muestra historial detallado del head del repositorio. 
+
+# Commit Ammend
+- `git commit --amend`: es utilizado para modificar el commit anterior (que no se ha sincronizado con el repositorio )si se nos olvida un archivo o el mensaje de confirmación e inclusive para fusionar confirmaciones.
+
+# Uso avanzado del checkout
+- `git checkout -- <file>`: con su uso podemos volver a la ultima versión de un archivo y descartar los cambios.
+- `git checkout <branch> - <file>`: restaura el archivo de una rama especifica a nuestra rama actual.
+
+# GIT Blame
+- `git blame`: es un comando utilizado en forma de autoría, ya que muestra quién y cuándo se realizaron cambios en un archivo.
+
+# GIT GREP y LOG
+- `git grep`: buscar cadenas de texto dentro de un archivo; buscar de las salidas de los logs. 
+- `git log`: comando que se utiliza para mostrar las confirmaciones en un repositorio.
+
+# Repositorio dentro de otros repositorios
+- Submódulos: es una forma de poder versionar o permitirle a un proyecto saber que checkout de los submódulos para el punto de la historia en que estás trabajando.
+- permiten incluir un repositorio de Git dentro de otro repositorio, como una subcarpeta.
+- Es una opción de mantener y utlizar proyectos relacionados o dependientes.
+
+
