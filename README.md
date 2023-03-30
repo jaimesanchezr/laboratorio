@@ -94,11 +94,11 @@ Como se gestiona el ciclo de vida de la aplicación.
 # CODE REVIEW
 - Verificación y validación del código para reducir errores.
 
-#GIT EN MULTIPLES ENTORNOS DE TRABAJO
+# GIT EN MULTIPLES ENTORNOS DE TRABAJO
 - `git clean`:  eliminar archivos no rastreados en un directorio local. en git, un archivo no rastreado es que no ha sido añadido por primera vez.
 - `git rebase`: integra cambios de una rama a otra de forma mas ordenada (es como un merge).
 
-#GIT stash
+# GIT stash
 - `git stash`: guarda temporalmente los cambios en un estado intermedio para trabajar en otra cosa sin tener que hacer commit de los cambios actuales.
 - Se puede seguir trabajando desde el estado guardado.
 
