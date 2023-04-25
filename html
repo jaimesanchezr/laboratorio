@@ -1,0 +1,93 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="replace-words.component.css">
+  </head>
+  <body>
+    <app-replace-words></app-replace-words>
+  <h2>Buscar y reemplazar palabras</h2>
+<label>Texto de entrada:</label>
+<textarea [(ngModel)]="inputText"></textarea>
+<label>Palabra a buscar:</label>
+<input type="text" [(ngModel)]="searchWord">
+<label>Palabra a reemplazar:</label>
+<input type="text" [(ngModel)]="replaceWord">
+<button (click)="replaceButtonClick()">Reemplazar</button>
+<div>
+  <label>Texto de salida:</label>
+  <textarea readonly>{{ outputText }}</textarea>
+</div>
+
+</body>
+
+</html>
+
+
+import { Component } from '@angular/core';
+
+
+@Component({
+  selector: 'app-replace-words',
+  templateUrl: './replace-words.component.html',
+  styleUrls: ['./replace-words.component.css']
+})
+export class ReplaceWordsComponent {
+  inputText = '';
+  searchWord = '';
+  replaceWord = '';
+  outputText = '';
+
+  replace() {
+    
+    this.outputText = this.inputText.replace(new RegExp(this.searchWord, 'g'), this.replaceWord);
+   
+  }
+
+  replaceButtonClick() {
+    this.replace();
+  }
+
+}
+
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  textarea,
+  input[type='text'] {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+  }
+  
+  button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #3e8e41;
+  }
+  
+  div {
+    margin-top: 1rem;
+  }
+  
+  textarea[readonly] {
+    background-color: #eee;
+    cursor: not-allowed;
+  }
+  
